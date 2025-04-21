@@ -1,0 +1,41 @@
+.profileCard {
+  font-size: 1.6rem;
+  max-width: 35rem;
+  background-color: white;
+  border-radius: 0.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3.6rem;
+  text-align: center;
+  margin: 12px;
+}
+
+.avatarContainer {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.2rem;
+}
+
+.avatar {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.name {
+  margin-bottom: 0.3rem;
+}
+
+.email {
+  color: #888;
+  margin-bottom: 1.2rem;
+}
+
+.about {
+  color: #302e2e;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+}
