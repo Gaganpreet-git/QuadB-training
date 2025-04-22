@@ -1,0 +1,26 @@
+.input-container{
+
+
+}
+
+.label{
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+    display: block;
+    font-weight: 600;
+}
+.input{
+    width: 100%;
+    padding: 1.2rem 2rem;
+    border-radius: 0.4rem;
+    border: 1px solid #ccc;
+    font-size: 1.6rem;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+.error{
+    color: red;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
