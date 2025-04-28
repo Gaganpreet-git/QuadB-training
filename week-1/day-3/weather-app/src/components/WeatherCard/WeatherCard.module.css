@@ -1,0 +1,16 @@
+.value {
+  font-weight: bold;
+  color: black;
+}
+
+.container {
+  font-weight: bold;
+  color: rgb(10, 97, 196);
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(255, 0, 0);
+  margin-bottom: 12px;
+}
