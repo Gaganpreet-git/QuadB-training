@@ -1,0 +1,55 @@
+.postCard {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 600px;
+}
+
+.postImage {
+  width: 100%;
+  margin-bottom: 16px;
+
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.postMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.postTitle {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 12px;
+}
+
+.postContent {
+  padding: 16px;
+}
+
+.postDescription {
+ margin-bottom: 16px;
+  color: #555;
+}
+
+
+.readMoreButton{
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.readMoreButton:hover {
+  background-color: #0056b3;
+}
+

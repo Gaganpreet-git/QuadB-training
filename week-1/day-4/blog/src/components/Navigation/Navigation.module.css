@@ -1,0 +1,52 @@
+.navigation > ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.navLink {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.active {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  border-bottom: 2px solid #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .navigation {
+    position: fixed;
+    top: 70px;
+    right: 0;
+    width: 260px;
+    height: 100%;
+    background-color: #ffffff;
+    padding: 32px 16px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(300px);
+  }
+  .navigation > ul {
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #ffffff;
+    padding: 8px 16px;
+  }
+
+  .navLink {
+    color: #000;
+  }
+
+  .active {
+    color: #000;
+    border-bottom: 2px solid #000;
+  }
+
+  .show {
+    transform: translateX(0);
+  }
+}

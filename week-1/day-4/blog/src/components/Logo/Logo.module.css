@@ -1,0 +1,16 @@
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.logoContainer {
+  padding: 12px 24px;
+  border: 1px solid #ffffff;
+}
+
+.link{
+  text-decoration: none;
+  color: white;
+}

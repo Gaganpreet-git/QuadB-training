@@ -1,0 +1,12 @@
+.contentArea{
+    display: flex;
+    justify-content: center;
+    
+    gap: 16px;
+    flex-wrap: wrap;
+    max-width: 1300px;
+}
+
+.homePage{
+    margin: 16px;
+}
